@@ -1,5 +1,4 @@
-# Welcome to GitHub Desktop!
+# Welcome to Python!
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+Just folder of python inside this repository containing gile of python (.py) that is the single gule where i learned full python from beginner to intermediate level or you can in other word beginner to project understanding level..😃
