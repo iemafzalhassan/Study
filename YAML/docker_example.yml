@@ -10,3 +10,61 @@ newDockerImage :
   - install : sudo apt update && upgrade -y
   - location : /usr/bin
   - k8s : cluster
+
+---
+# Leave the Above Section it was just for demonstartion.
+# In YAML we can write comment. but there a small twist
+# That we cannot write comments with multiple lines.
+# We can use #-hash to write the comment but every time we need to write it before 
+# Commenting it.
+
+# Above I have explained about comment in YAML.
+
+# lets get started with YAML learning.
+
+YAML :
+  - YAML Ain't Markup Language
+  - YAML is case sensetive 
+  - > Here, yml, YML and Yml all are different and can be considered as a diffrent 
+    and has different meaning for the interpreter.
+#  - We can map the data using Colons :
+
+
+---
+
+yml : yaml
+Description : > YAML and YML (yml and yaml) 
+  both are correct, extention for both can be considered.
+  we can save any configuration while containing the data of the instances 
+  that you are running can be saved with .yml and .yaml.
+threeDashes :
+  - --- this threeDashes works like a separator.
+threeDots :
+  - ... This threeDots works like end of the file
+Comments :
+  - # this symbol is used for commenting.
+  - - this dash is used for listing the objects.
+mapping_of_Sequence :
+  - mapping of a sequence can be done with the help of [ this bracket ].
+mapping_of_mapping ::
+  - mapping of mapping can be done with the help of { curly brackets }.
+---
+
+# this a example for a user details in yml
+time : 03 : 37 : 00 PM 
+Date : 05 : 10 : 2023
+player : iemafzalhassan
+action : code a game of 2048 
+
+# this is a dedication section for a user that is iemafzalhassan logs in the same directives.
+
+---
+threeDashes :
+  - we use threeDashes to Devide the section.
+  - If we need to work with multipe containers within the same data
+  - we can use this threeDashed to separe it.
+  - just like this section i have separated individually.
+---
+
+
+
