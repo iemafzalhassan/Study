@@ -1,0 +1,12 @@
+name : iemafzalhassan
+docker : version
+start:
+  - update : sudo apt update
+  - upgrade : sudo apt upgrade -y
+  - install : sudo apt install nginx
+  - location : /usr/bin/
+---
+newDockerImage : 
+  - install : sudo apt update && upgrade -y
+  - location : /usr/bin
+  - k8s : cluster
