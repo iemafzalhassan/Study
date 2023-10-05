@@ -5,6 +5,11 @@ start:
   - upgrade : sudo apt upgrade -y
   - install : sudo apt install nginx
   - location : /usr/bin/
+  - echo $PATH: /usr/opt/bin/nginx
+  - dB : prostql
+  - installation : sudo apt install myprostql -1.2.3
+  - echo $PATH : /unsr/bin
+  - echoMyPath : /usr/home/iemafzalhassa/Github/
 ---
 newDockerImage : 
   - install : sudo apt update && upgrade -y
