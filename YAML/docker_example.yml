@@ -70,6 +70,42 @@ threeDashes :
   - we can use this threeDashed to separe it.
   - just like this section i have separated individually.
 ---
+# lists
+
+students:
+  - marks
+  - name
+  - roll_No
+  # like this also lists can be written
+cities: [new delhi, muzaffarpur, patna, saharsa]
+
+
+# some keys of the sequence will be empty
+sparse seq :
+  - hey
+  - Null
+  - how
+  - sup
+  - 
+  - 
+
+
+    # nested mapping :
+
+
+name: iemafzalhassan
+role:
+  - rollNo: 38
+  - age: 22
+  - job: students
+
+
+
+# same as above can be written inn another manner:
+
+
+name: iemafzalhassan
+role: { rollNo: 38 age: 22, job: students}
 
 
 
