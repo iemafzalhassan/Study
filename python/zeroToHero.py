@@ -107,15 +107,7 @@ print("IDK why and how my this study repo got deleted just restored it"
 
 
 
-
-
-
-
-
-
-
-
-
+print("Installed kali Linux and Set-up SSh on its terminal and Auth in Codium")
 
 
 
