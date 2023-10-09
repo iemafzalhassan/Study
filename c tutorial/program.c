@@ -213,6 +213,14 @@ printf("Sum is : %d\n", value_one+value_two);
 // Compilation :----> the code above you have written and the ouput what is display is done by compilation.
 // Compilor is the translator which converts our program into binary to make understood to our Pcs/Machines.
 
+// ------------------------------------------------------------------------------------------------------------------------ //
+// Q1. Write a program to calculate are of square?
+// Sol.
+// As we know side * side is used to know area.
+int side;
+printf("Enter value for side :");
+scanf("%d\n", side);
+printf("Area is : %d\n", side*side);
 
 
 
