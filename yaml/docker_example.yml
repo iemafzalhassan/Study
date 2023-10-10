@@ -107,5 +107,61 @@ role:
 name: iemafzalhassan
 role: { rollNo: 38 age: 22, job: students}
 
+---
 
+# New Instance
+
+Extect : 
+  - preprocess : Start
+  - Instance : Ubuntu LTS 1.18-22.04_beta
+  - Arch : x86, amd
+echo update it.
+sudo apt update
+sudo apt upgrade -y
+echo update finished
+Extect_Close_for ubuntu :
+  - opt : /home/local/usr/bin/nginx
+  - install : sudo apt install nginx 1.18.0
+  - update : sudo apt update nginx
+  - location : / home/local/usr/bin
+# Add the location where your nginx instance has been innstalled.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
 
