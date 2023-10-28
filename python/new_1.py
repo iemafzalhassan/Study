@@ -62,17 +62,10 @@
 
 
 #Govt. Driving Rule_age_checker
-
-age = int(input("Enter your age: "))
-if age > 18:
-        if age >= 65:
-            print("You are too old to drive, Please Hire a Driver and Take Rest..!")
-        else:
-            print("You are eligible to drive")
-            print("Please wear a seat belt and follow the traffic rules")
-            print("Have a safe journey")
-            print("Drive Slowly") 
-else:
-    print("You are not eligible to drive")
-    #print("Please wait for {} years".format(18-age))
-
+#age = int(input("Enter your age: "))
+#if age>=18:
+#    print("You can drive")
+#elif age==18:
+#    print("We can't decide, please come to our office")
+#else:
+#    print("You can't drive")
