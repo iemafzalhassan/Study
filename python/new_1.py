@@ -69,3 +69,11 @@
 #    print("We can't decide, please come to our office")
 #else:
 #    print("You can't drive")~ 
+
+
+
+
+# list
+
+names = [ 'iemafzal', 'fr4g1l3ch0', '74', '12', '33.03']
+names
