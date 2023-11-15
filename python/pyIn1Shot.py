@@ -141,22 +141,40 @@ comment.
 
 # Assignment Operatos --> =, +=, -=, *=, /=, %=, **=, //=, &=, |=, ^=, >>=, <<=
 
+#  To run this block of clock uncomment the code one by one and run one by one.
+# n1 = 2
+# n2 = 3
+# # n2 += n1
+# # n2 -= n1
+# # n2 *= n1
+# # n2 /= n1
+# # n2 %= n1
+# print(n2)
+
+
+
+# Comparison Operators --> == (Equal), != (Not Equal), > (Greater than), < (Less than), >= (Greater than or equal to), <= (Less than or equal to)
 
 # n1 = 2
 # n2 = 3
-# print(n1, n2)
-# n2 += n1
-# print(n1, n2)
-
-# n2 -= n1
-# n2 *= n1
-# n2 /= n1
-# n2 %= n1
 
 
+# print(n1 == n2) # False
+# print(n1 != n2) # True
+# print(n1 > n2) # False
+# print(n1 < n2) # True
+# print(n1 >= n2) # False
+# print(n1 <= n2) # True
 
 
-# Comparison Operators --> ==, !=, >, <, >=, <=
+#   Logical Operators.
+# and, or, not
+
+# and (Retuens true if both the statements are true.),
+# or (Returns True if one of the statement is true.),
+# not (Reverse the result, returns False if the result is true.)
+
+
 
 
 
