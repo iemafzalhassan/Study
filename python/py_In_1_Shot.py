@@ -174,19 +174,55 @@ comment.
 # or (Returns True if one of the statement is true.),
 # not (Reverse the result, returns False if the result is true.)
 
+# exp1 = 32 > 12 # True
+# exp2 = 12 < 5 # False
+# print("exp1 and exp2:", exp1 and exp2) # False
+# print("exp1 or exp2:", exp1 or exp2) # True
+# print("not exp1", not exp1) # False
+
+
+#  Identity Operators.
+# is, is not
+
+# is (Returns True if both variables are same object.)
+# is not (Returns True if both variables are not same object.)
+
+# x = 2
+# y = 2
+# print("if x is y: ", x is y) # True
+# print("if x is not y: ", x is not y) # False
 
 
 
 
+# Membership Operators.
 
 
 
+# in, not in
+
+# in (Returns True if a sequence with the specified value is present in the object.)
+# not in (Returns True if a sequence with the specified value is not present in the object.)
+
+# name = "iemafzalhassan"
+# print("a" in name)
+# print("a" not in name)
+# print("g" in name)
+# --------------------------
+# heart = "blackHole"
+# print("love" not in heart)
+# print("Hole" in heart)
+
+# --------------------------------------
+
+# my_os_instances =["Kali", "Pop! os", "Ubuntu", "Parrot", "Garuda", "Linux mint", "fedora"]
+# print("If Pop! os is present in my os instance", "Pop! os" in my_os_instances)
+# print("If Cent os is not in my instance", "Cent os" not in my_os_instances)
+# print("If Kali is not in my instance", "Kali" not in my_os_instances)
 
 
 
-
-
-
+# Bitwise Operators.  ----> & (AND), | (OR), ^ (Xor), ~ (Not), << (zero fill left shift), >> (Signed right shift).
 
 
 
