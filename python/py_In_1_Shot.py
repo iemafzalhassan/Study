@@ -226,7 +226,7 @@ comment.
 
 
 
-# alculataing volume of a sphare.
+# Calculataing volume of a sphare.
 # radius = float(input("Enter radius of a sphare: "))
 # # calculate volume
 # volume = (4/3) * 3.14 * radius ** 3
