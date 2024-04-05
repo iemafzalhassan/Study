@@ -1,6 +1,6 @@
-# Day 0 : Understanding syllabus and Discussion over it. 
+# Day 0 : Understanding syllabus and Discussion over it. &darr;
 
-# Day 1 : Introduction to python  --> Installation & Configuration. &darr;
+# Day 1 : Introduction to python  &rarr; Installation & Configuration. &darr;
  * Introduction to python and its role concept in DevOps.
  * Instalation of Python and Setting up a development Environment.
  * Writing your first program.
@@ -123,18 +123,18 @@
 
 
 # Day 14 : Python libraries for DevOps. &darr;
- * Introduction external libraries ike paramiko, Fabric & Boto3.
- * Automating SSH connection with Paramiko.
- * Running commands on remote server.
+ * Introduction external libraries ike [paramiko](https://www.paramiko.org/), [Fabric](https://www.fabfile.org/) & [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html).
+ * Automating [SSH](https://www.cloudflare.com/learning/access-management/what-is-ssh/) connection with [Paramiko](https://www.paramiko.org/).
+ * Running commands on [remote server](https://www.g2.com/glossary/remote-server-definition).
  * Practce exercises & examples. &darr;
   - Examples : &rarr; Using Paramiko to craete a secure remote backup solution.
 
 <br>
 
 # Day 15 : Python libraries for DevOps. &darr;
- * Using Fabric for remote task automation.
- * AWS autimation with Boto3.
- * Managing EC2 instances, S3 Buckets and more.
+ * Using [Fabric](https://www.fabfile.org/) for remote task automation.
+ * AWS autimation with [Boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html).
+ * Managing [EC2 instances](https://www.w3schools.com/aws/aws_cloudessentials_ec2instancetypes.php), [S3 Buckets](https://www.w3schools.com/whatis/whatis_aws_s3.asp) and more.
  * Practce exercises & examples. &darr;
   - Examples : &rarr; Creating a Fabric script for deploying applications to remote server.
 
@@ -143,9 +143,9 @@
 
 
 # Day 16 : HandsOn with RESTful API. &darr;
- * Introduction to RESTful API.
- * Making HTTP requests using python.
- * Parsing JSON responses for error handling.
+ * Introduction to [RESTful API](https://aws.amazon.com/what-is/restful-api/#:~:text=RESTful%20API%20is%20an%20interface,applications%20to%20perform%20various%20tasks.).
+ * Making [HTTP requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods) using python.
+ * Parsing [JSON responses](https://developer.mozilla.org/en-US/docs/Web/API/Response/json) for error handling.
  * Practce exercises & examples. &darr;
   - Examples : &rarr; Developing a script to monitor RESTful API endpoints for your devOps tools.
 
@@ -153,7 +153,7 @@
 <br>
 
 # Day 17 : Data Serialization & Configuration. &darr;
- * Serializing & Deserializing data(JSON,YAML).
+ * Serializing & Deserializing data([JSON](https://www.w3schools.com/js/js_json_intro.asp),[YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started)).
  * Managing configuration data.
  * DevOps use cases for configuration files.
  * Practice exercises & examples. &darr;
@@ -163,9 +163,11 @@
 <br>
 
 
-# Day 18 : Automation with CRON Jobs. &darr;
- * Scheduling automated tasks using CRON.
+# Day 18 : Automation with [CRON Jobs](https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/#:~:text=A%20CronJob%20starts%20one%2Dtime%20Jobs%20on%20a%20repeating%20schedule.&text=A%20CronJob%20creates%20Jobs%20on,file%20on%20a%20Unix%20system.). &darr;
+ * Scheduling automated tasks using [CRON](https://cronitor.io/guides/python-cron-jobs).
  * Creating python script for schedules automation.
  * Handling periodic tasks and reports.
  * Practce exercises & examples. &darr;
-  - Exampes : &rarr; Using CROn and python to schedule regular backups of data.
+  - Exampes : &rarr; Using CRON and python to schedule regular backups of data.
+
+
