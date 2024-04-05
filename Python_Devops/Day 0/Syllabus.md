@@ -1,4 +1,4 @@
-# Day 0 : Syllabus -->
+# Day 0 : Understanding syllabus and Discussion over it.  -&darr;
 
 # Day 1 : Introduction to python  --> Installation & Configuration.
  * Introduction to python and its role concept in DevOps.
