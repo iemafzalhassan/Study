@@ -66,6 +66,7 @@ python3 -V
 ```
 print("Hello World!")
 ```
+
 #### Pythons checks func for execution.
 
 - [X] (Checks function name.)
